@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./assets/weather-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/widgetstyles.css">
+    </head>   
+    <body>
+    
+    <article class="widget">
+        <div class="weatherIcon"><i class="wi wi-day-sunny"></i></div>
+        <div class="weatherData">
+          <h1 class="temperature"></h1>
+          <h2 class="description"></h2>
+          <h3 class="city"></h3>
+        </div>
+        <div class="date">
+          <h4 class="month" id="month"></h4>
+          <h5 class="day" id="day"></h5>
+        </div>
+      </article>
+
+      <script src="./assets/jquery.js"></script>
+    <script src="./assets/weatherscript.js"></script>
+    </body>
+    
+    <style>
+      body {
+        background-color:maroon;
+      }
+.weatherIcon i{
+                        display: block;
+                        color: #818b8d;
+                        font-family: weathericons; 
+                        font-size: 110px;
+                        position: absolute;
+                        left: 50%;
+                        top: 58%;
+                        transform: translate(-50%, -50%);
+}
+    </style>
+</html>
